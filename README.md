@@ -174,9 +174,6 @@ make run
 - [Kotlin Native](https://kotlinlang.org/docs/native-overview.html)
 - [Java JNI Programming Tutorial](https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html)
 
-## License
-
-This project is distributed under the MIT license.
 
 ---
 
