@@ -153,11 +153,6 @@ The benefit of this approach is that you don't need to manually run `javah` or o
    ./gradlew run
    ```
 
-Alternatively, run all steps with:
-```bash
-make run
-```
-
 ## Important Notes
 
 1. **Data Types**: JNI handles conversions between Kotlin/Java types and C++ types. Primitives like Int map directly to jint. Reference types like String require using JNIEnv functions (e.g., NewStringUTF).
