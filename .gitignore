@@ -1,0 +1,54 @@
+############################################
+# GRADLE / KOTLIN
+############################################
+# Derleme klasörleri
+/build/
+/out/
+/.gradle/
+/.kotlinc/
+
+# Gradle wrapper önbellekleri
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Log dosyaları
+*.log
+
+############################################
+# IDE / EDITÖR
+############################################
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.user
+*.sw?
+.DS_Store
+
+
+
+############################################
+#  NATIVE DERLEME ÇIKTILARI
+############################################
+# macOS
+*.dylib
+# Linux
+*.so
+# Windows / MinGW
+*.dll
+# Objeler, bağımlı dosyalar
+*.o
+*.obj
+*.a
+*.lo
+
+############################################
+#  TEMP / SISTEM
+############################################
+*.tmp
+*~
+.cache/
+Thumbs.db
